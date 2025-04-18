@@ -5,3 +5,11 @@
 #The most direct way of doing this would be using a try block, which has not been covered yet. You will need to research this.
 #Write supporting code to call the function, and then display the number that was entered.
 
+def this_function(prompt, error):
+    a = int(input(prompt))
+    if a == int:
+        print(a)
+        if a is not int:
+            print(error)
+
+this_function("Please enter an integer", "Please try again")
