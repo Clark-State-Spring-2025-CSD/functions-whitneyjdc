@@ -19,3 +19,22 @@
 # How many sides? 20
 # Here are the results: [18, 19, 6, 8, 13, 6, 6, 6, 18, 12, 20, 10, 14, 8, 14, 17, 12, 15, 20, 17]
 
+def function_roll():
+    a = int(input("How many dice?"))
+    if a > 1:
+        print("How many sides?")
+    else:
+        print("Please try a number greater than 1.")
+
+    b = int(input("How many sides?"))
+    if b > 1:
+        print("Here are the results:")
+    else: 
+        print("Please try a number greater than 1.")
+
+function_roll()
+
+
+
+
+
